@@ -1,0 +1,98 @@
+body{
+    background-image: linear-gradient(120deg, rgb(230, 59, 187), rgb(218, 218, 103));
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 480px;
+    height: 30rem;
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    /* margin: auto; */
+    
+}
+.heading{
+    margin-top: 3rem;
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    background-color: teal;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    color:lightgray;
+    
+}
+h3{
+    cursor: pointer;
+    
+}
+.active{
+    color: white;
+}
+.tasks{
+    height: 90%;
+    width: 100%;
+    background-color: white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    overflow-y: auto;
+}
+.addBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: white;
+    margin-top: -2rem;
+    border-radius: 4rem;
+    z-index: 2;
+    box-shadow: 0px 0px 1rem 0 gray;
+    color: pink;
+    cursor: pointer;
+}
+.addBtn i{
+    font-size: xx-large;
+    
+}
+.oneTask{
+    /* width: 90%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}.oneTask i{
+    cursor: pointer;
+}
+.oneTask p{
+    width: 70%;
+    border: 1px solid lightgray;
+    padding: 0.2rem;
+    
+}
+.done{
+    color: palevioletred;
+}
+.delete{
+    color: lightcoral;
+}
+.taskToDo{
+    position:absolute;
+    top: 15rem;
+    box-shadow: 0px 0px 1rem 0px teal;
+}
+.taskToDo input{
+    width: 476px;
+    height: 8rem;
+    background-color: lightgray;
+    outline: none;
+    border: none;
+    font-size: large;
+    text-align: center;
+}
